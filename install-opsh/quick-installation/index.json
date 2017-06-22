@@ -1,0 +1,43 @@
+{
+    "icon": "fa-openshift",
+    "title": "Quick Installation for OpenShift",
+    "description": "",
+    "pathwayTitle": "OpenShift",
+    "difficulty": "beginner",
+    "time": "10-15 minutes",
+    "backend": {
+        "imageid": "openshift",
+        "port": 8443
+    },
+    "environment": {
+        "showdashboard": true,
+        "dashboard": "Dashboard",
+        "uilayout": "terminal-iframe",
+        "hideintro": false,
+        "hidefinish": false
+    },
+    "details": {
+        "steps": [{
+            "title": "Topic 1 - Starting the Quick Installer",
+            "text": "01-starting-the-quick-installer.md"
+        }, {
+            "title": "Topic 2 - Viewing the Configuration File",
+            "text": "02-view-config-file.md"
+        }, {
+            "title": "Topic 3 - Verifying the Installation",
+            "text": "03-verify-installation.md"
+        }],
+        "intro": {
+            "courseData": "env-init.sh",
+            "code": "set-env.sh",
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+          "host01": [{"file": "route.json", "target": "/root/"}]
+        }
+    }
+}
+
