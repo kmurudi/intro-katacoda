@@ -1,0 +1,18 @@
+{
+  "title": "Installing OpenShift for Admins",
+  "description": "This course is dedicated to take the user through different types of OpenShift installations",
+  "paid": false,
+  "courses": [
+    {
+      "external_link": "https://learn.openshift.com/introduction/quick-installation/",
+      "course_id": "quick-installation",
+      "title": "Installing OpenShift 3.5 by Quick Installation"
+    },
+    {
+      "external_link": "https://learn.openshift.com/introduction/lab-2/",
+      "course_id": "lab-2",
+      "title": "Second lab"
+    },
+   
+  ]
+}
